@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
+import PokidexSearch from './PokedexSearch';
+import LayoutStyle from './styles/LayoutStyle';
 
-const MainComponent = () => (
-    <>
-            <h2>Test</h2>
-    </>
-)
+class MainComponent extends Component {
+        render(){
+                return(
+                      <LayoutStyle>
+                            <PokidexSearch
+                            name="Test"
+                            numberofPokemons={5} 
+                            />
+                      </LayoutStyle>      
+                )
+        }
+}
+   
 
 export default MainComponent;

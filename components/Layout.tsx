@@ -24,7 +24,24 @@ const InnerPage = styled.div`
 
 
 const GlobalStyles = createGlobalStyle`
- 
+  @font-face {
+    font-family: 'Fira-Mono-Regular';
+    src: url('../static/FiraMono-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Fira-Mono-Bold';
+    src: url('../static/FiraMono-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Josefin-Sans-Regular';
+    src: url('../static/JosefinSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
 
               /* Box sizing rules */
               *,
